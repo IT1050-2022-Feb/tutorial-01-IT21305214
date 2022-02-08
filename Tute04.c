@@ -20,22 +20,22 @@ int main() {
 int minimum (int no1, int no2, int min){
    if(no1 > no2){
       min = no2;
-      return min;
+      return no2;
    }
 }
 int maximum (int no1, int no2, int max){
    if(no1 > no2){
       max = no1;
-      return max;
+      return no1;
    }
    else{
       max = no2;
-      return max;
+      return no2;
    }
 }
 int multiply (int no1, int no2, int mul){
    mul = no1 * no2;
-   return mul;
+   return no1 * no2;
       
 }
 
