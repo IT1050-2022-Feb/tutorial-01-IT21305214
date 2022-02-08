@@ -10,12 +10,12 @@ int main() {
    printf("Input marks of two subjects: ");
    for(i = 0; i < 2; i++)
    {
-      scanf("%f", &mark):
-      sum = sum + mark:
+      scanf("%f", &mark);
+      sum = sum + mark;
    }
    avg = sum / 2;
    printf("\nAverage mark of two subjects = %0.2f", avg);
-   getch();
+   getchar();
    
   
   return 0;
